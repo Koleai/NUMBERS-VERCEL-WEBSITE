@@ -1,0 +1,22 @@
+.desktopLinks {
+  display: flex;
+}
+
+.desktopCta {
+  display: flex;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .desktopLinks,
+  .desktopCta {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
